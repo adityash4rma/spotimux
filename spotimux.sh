@@ -17,7 +17,6 @@ EOF
 
 params=""
 use_newacc=$(termux-dialog confirm -t "Use Default Account?" | jq -r '.text')
-echo hahah
 
 if [ "$use_newacc" == "no" ]; then
     credentials=$(termux-dialog text -i "username:password" -t "Enter Spotify Username & Password:" | jq -r '.text')
