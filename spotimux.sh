@@ -10,7 +10,7 @@ cat << "EOF"
 /___/ .__/\___/\__/_/_/_/_/\_,_//_\_\ 
    /_/                                 
   /_/                                              
-     Z O T I F Y  O N  T E R M U X
+     S P O T I F Y  D O W N L O A D E R
     <<< github ::: @adityash4rma >>>
 
 EOF
