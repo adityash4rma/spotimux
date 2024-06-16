@@ -22,4 +22,4 @@ bash spotimux.sh
 
 
 ## Developer:
-Aditya Sharma (Telegram)[https://w0lfrm.t.me]
+Aditya Sharma ::: [Telegram](https://w0lfrm.t.me)
