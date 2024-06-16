@@ -26,7 +26,8 @@ bash spotimux.sh
 1. zotify
 
 ### Apps
-1. Termux: API (on fdroid)
+1. Termux
+2. Termux: API (on fdroid)
 
 
 ## Developer:
