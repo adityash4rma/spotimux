@@ -18,12 +18,27 @@ bash spotimux.sh
 
 ## Dependencies
 ### Termux Packages
-1. ffmpeg
-2. jq
-3. termux-api
+```
+pkg install ffmpeg
+```
+
+```
+pkg install jq
+```
+
+```
+pkg install termux-api
+```
+
+```
+pkg install python
+```
 
 ### Github Repository 
 1. zotify
+   ```bash
+   python -m pip install git+https://zotify.xyz/zotify/zotify.git
+   ```
 
 ### Apps
 1. Termux
