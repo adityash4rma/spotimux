@@ -8,12 +8,12 @@ Spotify Downloader on Termux. It uses zotify under the sleeve to do the magic! B
 bash spotimux.sh
 ```
 
-## TODO [ v0.1 alpha ]
+## TODO [ v0.2 alpha ]
 - [x] Search songs
-- [ ] Download
+- [x] Download
 - [ ] Download: All Liked Songs
 - [ ] Download: All Artists Songs
-- [ ] Download: Playlist
+- [x] Download: Playlist
 
 
 ## Dependencies
