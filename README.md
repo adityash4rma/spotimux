@@ -17,6 +17,10 @@ Spotify Downloader on Termux. It uses zotify under the sleeve to do the magic! B
    ```
 
 ## Installing Dependencies
+### Apps
+1. Termux => https://f-droid.org/packages/com.termux/
+2. Termux: API => https://f-droid.org/packages/com.termux.api/
+
 1. ffmpeg
    ```bash
    pkg install ffmpeg
@@ -49,10 +53,6 @@ Spotify Downloader on Termux. It uses zotify under the sleeve to do the magic! B
    ```bash
    bash spotimux.sh
    ```
-
-### Apps
-1. Termux => https://f-droid.org/packages/com.termux/
-2. Termux: API => https://f-droid.org/packages/com.termux.api/
 
 
 ## Developer:
