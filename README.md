@@ -1,13 +1,6 @@
 # spotimux
 Spotify Downloader on Termux. It uses zotify under the sleeve to do the magic! Be Sure to install the below dependencies and apps.
 
-## Usage 
-1. Download the bash script and paste it into a directory accessible by termux
-2. Run the script by
-```shell
-bash spotimux.sh
-```
-
 ## TODO [ v0.2 alpha ]
 - [x] Search songs
 - [x] Download
@@ -16,33 +9,50 @@ bash spotimux.sh
 - [x] Download: Playlist
 
 
-## Dependencies
-### Termux Packages
-```
-pkg install ffmpeg
-```
+# Installation & Usage :
+1. Download the bash script and paste it into a directory accessible by termux.
+2. Update & Upgrade Packages.
+   ```bash
+   pkg update && pkg upgrade
+   ```
 
-```
-pkg install jq
-```
+## Installing Dependencies
+1. ffmpeg
+   ```bash
+   pkg install ffmpeg
+   ```
+2. jq (JSON parser)
+   ```bash
+   pkg install jq
+   ```
 
-```
-pkg install termux-api
-```
+3. termux API Wrapper
+   ```bash
+   pkg install termux-api
+   ```
 
-```
-pkg install python
-```
+4. Python 3.x
+   ```bash
+   pkg install python
+   ```
 
-### Github Repository 
-1. zotify
+5. Git
+   ```bash
+   pkg install git
+   ```
+
+6. zotify
    ```bash
    python -m pip install git+https://zotify.xyz/zotify/zotify.git
    ```
+7. Run the script by
+   ```bash
+   bash spotimux.sh
+   ```
 
 ### Apps
-1. Termux
-2. Termux: API (on fdroid)
+1. Termux => https://f-droid.org/packages/com.termux/
+2. Termux: API => https://f-droid.org/packages/com.termux.api/
 
 
 ## Developer:
